@@ -162,6 +162,11 @@ body > .info {
     border-radious: 50%;
 }
 
+.info .channel .metadata .info {
+    display: flex;
+    flex-direction: column;
+}
+
 .info .channel .metadata .info .name {
     font-size: var(--font-medium);
 }
