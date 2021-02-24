@@ -8,7 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/3c7ab40e06.js" crossorigin="anonymous"></script>
-    
+    <script src="main.js" defer></script>
 </head>
 <body>
     <!-- Header -->
@@ -27,16 +27,17 @@
         <video controls src="video/freaky.mp4"></video>
     </section>
 
-    <!-- Video Info -->
+    <div class="infoAndUpNext">
+            <!-- Video Info -->
     <section class="info">
         <!-- Metadata -->
         <div class="metadata">
-            <ul class="haghtags">
+            <ul class="hashtags">
                 <li>#Freaky</li>
                 <li>#Freak_club</li>
                 <li>#WandaKim</li>
             </ul>
-            <div class="titleAndButten">
+            <div class="titleAndButton">
                 <span class="title">
                     Freaky's new MusicVideo shooting taken by Nuwandakim was really 
                     good as hell. if you finding really good piece of Hip-Hop song,
@@ -46,28 +47,36 @@
                     <i class="fas fa-caret-down"></i>
                 </button>
             </div>
-            <div class="views">
                 <span class="views">100M views 1 month ago</span>
-            </div>
         </div>
         <!-- Actions -->
         <div class="actions">
-            <li><button class="fas fa-thumbs-up">1K</button></li>
-            <li><button class="fas fa-thumbs-down">0</button></li>
-            <li><button class="fas fa-share">Share</button></li>
-            <li><button class="fas fa-plus">Save</button></li>
-            <li><button class="fab fa-font-awesome-flag">Report</button></li>
+            <li>
+                <button><i class="active fas fa-thumbs-up">1K</i></button>
+            </li>
+            <li>
+                <button><i class="fas fa-thumbs-down">0</i></button>
+            </li>
+            <li>
+                <button><i class="fas fa-share">Share</i></button>
+            </li>
+            <li>
+                <button><i class="fas fa-plus">Save</i></button>
+            </li>
+            <li>
+                <button><i class="fab fa-font-awesome-flag">Report</i></button>
+            </li>
         </div>
         <!-- Channel-->
         <div class="channel">
-            <div class="metadate">
+            <div class="metadata">
                 <img src="image/IMG_1479.PNG" alt="">
                 <div class="info">
                     <span class="name">Wanda LAB</span>
                     <span class="subscribers">1M subscribers</span>
                 </div>
             </div>
-            <button class="subscribe"></button>
+            <button class="subscribe">subscribe</button>
         </div>
     </section>
     <!-- Up Next -->
@@ -75,7 +84,7 @@
         <span class="title">Up next</span>
         <ul>
             <li class="item">
-                <img src="image/un1.png" alt="">
+                <div class="img"><img src="image/un1.png" alt=""></div>
                 <div class="info">
                     <span class="title">Travis Scott feat. Young Thug & M.I.A. - FRANCHISE (Official Music Video)</span>
                     <span class="name">travis scott</span>
@@ -85,7 +94,7 @@
                 <button class="more"></button>
             </li>
             <li class="item">
-                <img src="image/un2.png" alt="">
+                <div class="img"><img src="image/un2.png" alt=""></div>
                 <div class="info">
                     <span class="title">Travis Scott, HVME - Goosebumps (Remix - Official Audio)</span>
                     <span class="name">travis scott</span>
@@ -95,7 +104,7 @@
                 <button class="more"></button>
             </li>
             <li class="item">
-                <img src="image/un3.png" alt="">
+                <div class="img"><img src="image/un3.png" alt=""></div>
                 <div class="info">
                     <span class="title">Travis Scott - SICKO MODE ft. Drake</span>
                     <span class="name">travis scott</span>
@@ -106,5 +115,6 @@
             </li>
         </ul>
     </section>
+    </div>
 </body>
 </html>
