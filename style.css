@@ -111,7 +111,7 @@ body > .info {
     transition: transform 300ms ease-in-out;
 }
 
-.info .metadata .titleAndButton .moreBtn {
+.info .metadata .titleAndButton .moreBtn.clicked{
     transform: rotate(180deg);
 }
 
